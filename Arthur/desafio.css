@@ -1,0 +1,74 @@
+.sobre{
+    background: white;
+    padding: 10px;
+}
+
+.sobre h2{
+    text-align:right;
+}
+
+.sobre{
+    background:rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80px;
+
+}
+
+.sobre p {
+    font-size: 18px;
+}
+.sobre p {
+    background: linear-gradient(to left,
+purple,pink);
+}
+
+.sobre p{
+    font-size: 10px;
+}
+
+.hero{
+    padding:100px 20px;
+    background: linear-gradient(to right, #1E3A8A, #3B82F6);
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom: 10px;
+    text-align: center;}
+
+ header{
+       background: nome;
+      padding: 5px;
+ }
+
+    .logo {
+       font-size: 12px;
+ }
+
+  nav ul {
+     display: block;
+ }
+
+ nav ul li a {
+    colo: white;
+    text-decoration: underline;
+ }
+
+ .cards{
+        display: block;
+    }
+ .card{
+    background: white;
+    padding: 5px;
+ }
+ p{
+    font-famili:sans-serif ;
+    font-sinze: 13px;
+    line - height: 20px; margin:
+     5px; text-align justify;  
+ }
+ h2{
+    
+ }

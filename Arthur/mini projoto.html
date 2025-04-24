@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de feedback -Programação web</title>
+</head>
+<body>
+    <h2>Formulario de feedback -Programação web</h2>
+    <p>Programação o formulario abaixo para avaliarmos sua experiencia no curso.</p>
+   
+    <form action="#" method="POST">
+
+       <label> for="nome">Nome Completo:</label>
+       <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+       <small>CCampo obrigatorio: Este campo usa o atributo <code>required</code> para garantir que seja preenchido.<small>
+        <br><br>
+        
+
+        <label for="emil">E-mail:</label>
+        <input type="email" name="email" required placeholder="exeplo@email.com">
+        <small>Campo obrigatório: O navegar verifica se o formato digitado é um e-mail válido.</small>
+        <br><br>
+        <!-- Campo deAvanção Número com limite minimo e maximo> -->
+        <label for="avaliação">Avaliação do curso(<1 a 10):></label>
+        <input type="number" id="avaliação"min="1" max="10" requiared>
+        <small>O atributo <cobe>min<code> define o valor minimo e <cobe>max</code> o valor maximo permidido.</small>
+        <br><br> 
+
+        <!-- Campo deta (Seleciona uma data especifica) -->
+        <label for="data".Data de conclusção do curso:></label>
+        <input type="data" id="data" name="data" required>
+        <small>O tipo <code>date</code> exibe um seletor de calendario para facilitarmamescolha da data.</small>
+        <br><br>
+
+        <!-- Campo de Sleção (Dropdwn) -->
+        <label id="satisfação">Nivel de satisfação:</label>
+        <select id="satisfação" required>
+            <option valeu="">Seleciona</option>
+            <option valeu="excelente"></option>
+            <option valeu="bom">Bom</option>
+            <option valeu="regular">Regular</option>
+            <option valeu="ruim">Ruim</option>
+        </select>
+        <small>Usamos a tag <code>&lt;select&gt;</code> para criar um menu suspenso com opções pré-definidas.</small>
+        <br><br>
+
+        <!-- Campo de Comentario (Àrea de texto) -->
+        <label for="comentarios">Comentarios sobre o curso:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Deixe seu feedback aqui..."></textarea>
+        <small>A tag <code>&gt;</code> permite escrever texto mais longos.</small>
+        <br><br>
+
+        <!-- Checkbox (Aceitar os Termos) -->
+        <input type="checkbox" id="termos" name="termos" required>
+
+        </select>
+        <small>Usamos a tag  <code>&lt,Select&gt;</code> para criar um menu suspenso com opções pré-definidas.</small>
+        <br><br>
+
+        <!-- Checkbox (Aceitaros Termos) -->
+        <input TType="checkbok" id="termos" name="termos" required>
+        <label for="termos">Aceito os termos de privacidades</label>
+        <small>O <code>required</code> garante que o usuário só possa enviar se marcar essa opção.</small>
+        <br><br>
+
+        <!-- Bomtão de Envio -->
+        <button type="submit">Enviar Feedback</button>
+        <small>O botão <code>&lt;button type="submit"&gt;</code> enviar os dados do formulário.</small>
+    </form>
+</boby>
+</html>
