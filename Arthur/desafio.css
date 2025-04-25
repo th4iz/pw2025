@@ -49,10 +49,10 @@ purple,pink);
 
   nav ul {
      display: block;
- }
+ } 
 
  nav ul li a {
-    colo: white;
+    color: white;
     text-decoration: underline;
  }
 
@@ -64,7 +64,7 @@ purple,pink);
     padding: 5px;
  }
  p{
-    font-famili:sans-serif ;
+    font-famili: sans-serif;
     font-sinze: 13px;
     line - height: 20px; margin:
      5px; text-align justify;  

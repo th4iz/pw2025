@@ -6,28 +6,26 @@
 .container {
     display: grid;
     grid-template-areas: 
-    'header header header'
-    'aside article section'
-    'footer footer footer';
     gap: 10px;
 }
 
 header {
-    grid-area: header;
     background-color: blueviolet;
+    justify-self: center;
 }
 
 aside {
-    grid-area: aside;
     background-color: aqua;
 }
 
 article {
-    grid-area: section;
+    background-color: rgb(24, 255, 24);
+}
+
+article {
     background-color: blue;
 }
 
 footer {
-    grid-area: footer;
     background-color: red;
 }
